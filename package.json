@@ -13,5 +13,9 @@
   },
   "dependencies": {
     "@rive-app/canvas": "^2.4.0"
+  },
+
+  "prettier": {
+    
   }
 }

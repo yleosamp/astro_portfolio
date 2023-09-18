@@ -1,6 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt_BR">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +7,6 @@
   </head>
 
   <body>
-
     <header>
       <nav>
         <div class="bruno">
@@ -22,26 +20,80 @@
     </header>
 
     <div id="app">
+      <section class="welcome">
+        <div class="astro-svg">
+          <span></span>
 
-
-      <div class="astro-svg">
-        <span></span>
-
-        <div class="texts">
-          <h1>Bem-vindo</h1>
-          <h3>*textos alternativos*</h3>
+          <div class="texts">
+            <h1>Bem-vindo</h1>
+            <h3>*textos alternativos*</h3>
+          </div>
         </div>
 
-      </div>
+        <div class="shapes">
+          <span></span>
+        </div>
 
+        <section class="projetos">
+          <div class="projects">
+            <div class="texts">
+              <h1>
+                Projetos
+                <img
+                  src="./public/assets/star-flattern.svg"
+                  alt=""
+                  class="flattern"
+                />
+                2023
+                <img
+                  src="./public/assets/pattern-project.svg"
+                  alt=""
+                  class="pattern"
+                />
+                <img src="./public/assets/project-star.svg" alt="" />
+              </h1>
+              <p>
+                Acredito que a experiência e excelência de qualidade são
+                essenciais para qualquer projeto de sucesso. Meu objetivo é
+                criar conteúdo que seja visualmente atraente, informativo e
+                envolvente. Também estou comprometido em trabalhar com os
+                clientes para entender suas necessidades e objetivos.
+              </p>
+            </div>
 
+            <div class="image-rectangle"></div>
+          </div>
 
+          <div class="videos">
+            <div class="images">
+              <div class="videos-images"></div>
+              <div class="videos-images"></div>
+            </div>
+
+            <div class="texts">
+              <h1>
+                Edição de
+                <img
+                  src="/public/assets/edicao.svg"
+                  alt="Ícone de edição de vídeo"
+                />Vídeos
+              </h1>
+              <p>
+                Acredito que a experiência e excelência de qualidade são
+                essenciais para qualquer projeto de sucesso. Meu objetivo é
+                criar conteúdo que seja visualmente atraente, informativo e
+                envolvente. Também estou comprometido em trabalhar com os
+                clientes para entender suas necessidades e objetivos.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
     </div>
-    
+
     <canvas id="canvas"></canvas>
 
     <script type="module" src="main.js"></script>
     <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
   </body>
-
 </html>
