@@ -5,6 +5,6 @@ const r = new rive.Rive({
   canvas: document.getElementById("canvas"),
   autoplay: true,
   onLoad: () => {
-    r.resizeDrawingSurfaceToCanvas()
+    r.resizeDrawingSurfaceToCanvas();
   },
-})
+});

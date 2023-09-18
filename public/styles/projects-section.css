@@ -1,0 +1,128 @@
+/* === PROJECTS SECTION === */
+
+.projects {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-top: 108px;
+
+  /* border: 2px solid red; */
+  gap: 289px;
+
+  flex-shrink: 0;
+}
+
+.projects > .texts {
+  flex-direction: column;
+}
+
+.projects > .texts > h1 {
+  font-family: "Moonhouse-Regular";
+  text-transform: uppercase;
+
+  width: 500px;
+  height: 101px;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.projects > .texts > p {
+  width: 454px;
+  font-family: "Gotham";
+  font-size: 16px;
+
+  line-height: 25.5px;
+  letter-spacing: 1.44px;
+
+  margin-top: 50px;
+}
+
+.projects > .image-rectangle {
+  width: 484px;
+  height: 484px;
+
+  background-color: #d9d9d9;
+  border-radius: 35px;
+}
+
+/* === EDIÇÃO DE VÍDEOS === */
+
+.videos {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  margin-top: 152px;
+  gap: 210px;
+}
+
+.videos > .texts {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.videos > .texts > h1 {
+  font-family: "Moonhouse-Regular";
+  text-transform: uppercase;
+
+  width: 437px;
+  height: 101px;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.videos > .texts > p {
+  width: 454px;
+  font-family: "Gotham";
+  font-size: 16px;
+
+  line-height: 25.5px;
+  letter-spacing: 1.44px;
+
+  margin-top: 50px;
+}
+
+/* TEXT IMAGES */
+
+.videos > .images {
+  display: flex;
+  flex-direction: column;
+
+  gap: 28px;
+}
+
+.videos > .images > .videos-images {
+  width: 562px;
+  height: 208px;
+
+  border-radius: 35px;
+
+  background-color: #d9d9d9;
+}
+
+.videos > .texts > h1 > img {
+  margin-right: 10px;
+}
+
+.projects > .texts > h1 > img {
+  margin-right: -18px;
+}
+
+.projects > .texts > h1 > .flattern {
+  margin-left: -15px;
+}
+
+.projects > .texts > h1 > .pattern {
+  margin-left: -20px;
+}

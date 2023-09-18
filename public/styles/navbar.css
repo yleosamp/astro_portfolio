@@ -1,0 +1,64 @@
+/* NAV-BAR */
+
+header {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e6e6e6;
+  border-radius: 15px;
+
+  width: 100%;
+  height: 68px;
+  position: absolute;
+}
+
+header > nav > .bruno > h1 {
+  font-family: "Gotham";
+  color: black;
+  font-size: 20px;
+}
+
+.bruno {
+  display: flex;
+
+  width: 190px;
+  height: 40px;
+
+  background-color: #d9d9d9;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  margin-top: 15px;
+  margin-left: 22px;
+
+  animation: in-enter 1s cubic-bezier(0, 0.76, 0.43, 1.01) alternate;
+}
+
+header > nav > .portfolio > h1 {
+  font-family: "Gotham";
+  color: black;
+  font-size: 20px;
+}
+
+.portfolio {
+  animation: invisible 7s ease-in alternate;
+  animation: in-enter 5s cubic-bezier(0, 0.76, 0.43, 1.01) alternate;
+  animation-delay: 3s;
+  display: flex;
+
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+
+  width: 190px;
+  height: 40px;
+
+  background-color: #d9d9d9;
+
+  border-radius: 16px;
+
+  margin-top: -40px;
+  margin-left: 220px;
+}

@@ -1,0 +1,65 @@
+/* ASTRO SVG */
+
+.astro-svg > span {
+  display: flex;
+  flex-shrink: 0;
+  background: url("../assets/vector-astro.svg") no-repeat;
+
+  width: 451px;
+  height: 495px;
+}
+
+/* BEM-VINDO */
+
+.astro-svg {
+  display: inline-flex;
+  /* background-color: red; */
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 175px;
+
+  margin-top: 191px;
+
+  /* background: url('../assets/frames-jogado.svg') center left; */
+}
+
+.astro-svg > .texts > h1 {
+  color: #f9f9f9;
+  font-family: "Gotham";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  letter-spacing: 6.39px;
+}
+
+.astro-svg > .texts > h3 {
+  font-family: "Coolvetica-Regular";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 2.88px;
+
+  display: inline-flex;
+
+  border-bottom: 2px solid;
+
+  margin-top: 10px;
+}
+
+/* SHAPES END SECTION */
+
+.shapes > span {
+  background: url("../assets/shapes.svg");
+  width: 454.497px;
+  height: 49.497px;
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 180px;
+}

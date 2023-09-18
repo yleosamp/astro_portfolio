@@ -12,10 +12,8 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "@rive-app/canvas": "^2.4.0"
+    "@rive-app/canvas": "^2.4.0",
+    "animejs": "^3.2.1"
   },
-
-  "prettier": {
-    
-  }
+  "prettier": {}
 }
