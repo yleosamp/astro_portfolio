@@ -47,7 +47,7 @@
   width: 484px;
   height: 484px;
 
-  background-color: #d9d9d9;
+  background-color: rgba(34, 34, 34, 100);
   border-radius: 35px;
 }
 
@@ -108,7 +108,7 @@
 
   border-radius: 35px;
 
-  background-color: #d9d9d9;
+  background-color: rgba(34, 34, 34, 100);
 }
 
 .videos > .texts > h1 > img {

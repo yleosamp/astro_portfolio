@@ -22,7 +22,7 @@
     <div id="app">
       <section class="welcome">
         <div class="astro-svg">
-          <span></span>
+          <span> </span>
 
           <div class="texts">
             <h1>Bem-vindo</h1>
@@ -61,11 +61,11 @@
               </p>
             </div>
 
-            <div class="image-rectangle"></div>
+            <div class="image-rectangle" id="image-rectangle"></div>
           </div>
 
           <div class="videos">
-            <div class="images">
+            <div class="images" id="video-images">
               <div class="videos-images"></div>
               <div class="videos-images"></div>
             </div>
@@ -91,9 +91,22 @@
       </section>
     </div>
 
+    <footer>
+      <p class="contato">
+        Faça seu orçamento: (55) 98155-4523 <br />Entre em contato em:
+        astroocontato@hotmail.com
+      </p>
+
+      <p class="dev">
+        Página desenvolvida por: <br />
+        Leonardo de Melos Daitx, Bruno Henrique
+      </p>
+    </footer>
+
     <canvas id="canvas"></canvas>
 
-    <script type="module" src="main.js"></script>
+    <script type="module" src="/main.js"></script>
     <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </body>
 </html>

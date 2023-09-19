@@ -6,7 +6,7 @@
 
 body {
   background-color: rgba(34, 34, 34, 100);
-  overflow-x: h;
+  overflow-x: hidden;
 }
 
 #app {
@@ -19,4 +19,11 @@ body {
   width: 80vw;
 
   margin: auto;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
 }
