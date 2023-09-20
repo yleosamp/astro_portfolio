@@ -9,6 +9,8 @@ Serve como aprendizado e para ajudar o mesmo com um website para divulgar os seu
 - CSS
 - JavaScript
 - Node.js
+- Anime.js
+- Animate.css
 
 # Contato do Bruno "Astro" Henrique
 

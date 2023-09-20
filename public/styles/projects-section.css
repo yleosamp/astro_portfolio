@@ -93,11 +93,22 @@
   margin-top: 50px;
 }
 
+.videos > .texts.videostexts {
+  opacity: 0;
+}
+
+.videos > .texts.videostexts.animated {
+  opacity: 1;
+}
+
 /* TEXT IMAGES */
 
 .videos > .images {
   display: flex;
   flex-direction: column;
+
+  justify-content: end;
+  align-items: end;
 
   gap: 28px;
 }
@@ -107,7 +118,6 @@
   height: 208px;
 
   border-radius: 35px;
-
   background-color: rgba(34, 34, 34, 100);
 }
 

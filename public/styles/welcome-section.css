@@ -3,7 +3,7 @@
 .astro-svg > span {
   display: flex;
   flex-shrink: 0;
-  background: url("../assets/vector-astro.svg") no-repeat;
+  background: url("/assets/vector-astro.svg") no-repeat;
 
   width: 451px;
   height: 495px;
@@ -53,7 +53,7 @@
 /* SHAPES END SECTION */
 
 .shapes > span {
-  background: url("../assets/shapes.svg");
+  background: url("/assets/shapes.svg");
   width: 454.497px;
   height: 49.497px;
   flex-shrink: 0;

@@ -49,7 +49,7 @@ observer.observe(image);
 
 // === OBSERVANDO VÍDEOS ===
 
-const elementoObservado2 = document.querySelector("#video-images");
+const elementoObservado2 = document.querySelector(".texts.videostexts");
 
 const observer2 = new IntersectionObserver((entries) => {
   entries.forEach((entry2) => {

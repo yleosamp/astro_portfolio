@@ -14,7 +14,8 @@
   "dependencies": {
     "@rive-app/canvas": "^2.4.0",
     "animate.css": "^4.1.1",
-    "animejs": "^3.2.1"
+    "animejs": "^3.2.1",
+    "perfect-scrollbar": "^1.5.5"
   },
   "prettier": {}
 }

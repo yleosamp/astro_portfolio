@@ -1,0 +1,26 @@
+/* TAMANHO DA SCROLLBAR */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* TRACK */
+::-webkit-scrollbar-track {
+  background: #444444;
+  border-radius: 10px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* BARRINHA */
+::-webkit-scrollbar-thumb {
+  background: #353535;
+  border-radius: 8px;
+
+  transition: 1s;
+}
+
+/* HOVER */
+::-webkit-scrollbar-thumb:hover {
+  background: #585858;
+}
