@@ -6,7 +6,7 @@ function rectangle() {
     borderRadius: ["200%", "35px"],
     duration: 900,
     scale: ["0%", "100%"],
-    backgroundColor: "#d9d9d9",
+    opacity: ["0%", "100%"],
     easing: "spring(1, 80, 10, 0)", // spring(1, 80, 10, 0)
   });
 
@@ -18,7 +18,7 @@ function video() {
     targets: ".videos-images",
     duration: 900,
     scaleX: ["0%", "100%"],
-    backgroundColor: "#d9d9d9",
+    opacity: ["0%", "100%"],
     easing: "easeInOutCubic", // easeInOutCirc
   });
 

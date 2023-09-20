@@ -27,3 +27,20 @@ body {
   position: relative;
   display: inline-block;
 }
+
+.hide {
+  display: none;
+}
+
+#portfolio {
+  justify-content: center;
+
+  width: 90vw;
+
+  margin: auto;
+  display: none;
+}
+
+#portfolio > .designs {
+  margin-top: 150px;
+}

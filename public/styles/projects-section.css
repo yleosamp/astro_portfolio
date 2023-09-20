@@ -47,8 +47,33 @@
   width: 484px;
   height: 484px;
 
-  background-color: rgba(34, 34, 34, 100);
+  background: #ffffff;
+  opacity: 0;
+
   border-radius: 35px;
+
+  cursor: pointer;
+
+  transition: background 400ms;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.projects > .image-rectangle > .push {
+  display: inline-flex;
+  background: url("../assets/push.svg") no-repeat;
+  width: 196px;
+  height: 12px;
+
+  margin-bottom: 18px;
+}
+
+.projects > .image-rectangle:hover {
+  background: linear-gradient(180deg, #fff 0%, rgba(194, 194, 194, 0.71) 100%);
 }
 
 /* === EDIÇÃO DE VÍDEOS === */
@@ -118,7 +143,8 @@
   height: 208px;
 
   border-radius: 35px;
-  background-color: rgba(34, 34, 34, 100);
+  background-color: #ffffff;
+  opacity: 0;
 }
 
 .videos > .texts > h1 > img {

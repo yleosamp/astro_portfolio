@@ -10,10 +10,12 @@ import "/public/styles/footer.css";
 import "/public/styles/animations.css";
 import "/public/styles/scrollbar.css";
 import "/public/styles/responsive.css";
+import "/public/styles/designs/style.css";
 
 import "animate.css";
 
 import "/public/scripts/anime.js";
 import "/public/scripts/intersectionObserver.js";
+import "/public/scripts/newPage.js";
 
 // import "/public/scripts/rive.js";

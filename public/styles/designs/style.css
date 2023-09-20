@@ -1,0 +1,119 @@
+#portfolio {
+  animation: slideInUp cubic-bezier(0, 0.7, 0.26, 0.98);
+  animation-duration: 2s;
+}
+
+#portfolio > .designs > .head {
+  align-items: end;
+  justify-content: end;
+
+  display: flex;
+
+  animation: fadeInRight;
+  animation-duration: 2s;
+
+  gap: 7px;
+}
+
+#portfolio > .designs > .head > .texts {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#portfolio > .designs > .head > .texts > h1 {
+  font-family: "Coolvetica-Regular";
+  color: #fff;
+  font-size: 211px;
+
+  font-weight: 400;
+
+  text-align: end;
+
+  letter-spacing: 1.055px;
+}
+
+#portfolio > .designs > .head > .texts > h3 {
+  text-align: end;
+
+  margin-right: 70px;
+
+  font-family: "Coolvetica-Regular";
+  font-size: 31px;
+  font-style: italic;
+  font-weight: 400;
+
+  letter-spacing: 0.155px;
+}
+
+#portfolio > .designs > .head > .texts > h3 > marquee {
+  width: 840px;
+}
+
+#portfolio > .designs > .head > .texts > h4 {
+  font-family: "Coolvetica-Regular";
+  color: #fff;
+  font-size: 104px;
+
+  font-weight: 400;
+
+  text-align: start;
+
+  letter-spacing: 1.055px;
+}
+
+#portfolio > .designs > .head > .texts > h1 > img {
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  cursor: pointer;
+}
+
+#portfolio > .designs > .images {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-items: center;
+
+  justify-content: center;
+
+  margin-top: 150px;
+}
+
+#portfolio > .designs > .images > .image {
+  width: 384px;
+  height: 384px;
+
+  display: flex;
+
+  margin-right: 45px;
+  margin-bottom: 30px;
+
+  background-color: white;
+
+  border-radius: 18px;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+
+  zoom: 100%;
+
+  transition: transform 200ms;
+}
+
+#portfolio > .designs > .images > .image > img {
+  width: 378px;
+  height: 378px;
+
+  border-radius: 18px;
+
+  object-fit: cover;
+}
+
+#portfolio > .designs > .images > .image:hover {
+  transform: scale(1.1);
+}
