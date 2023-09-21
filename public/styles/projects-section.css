@@ -63,12 +63,28 @@
   align-items: center;
 }
 
+.projects > .image-rectangle:hover {
+  transform: scale(1.1);
+  background: linear-gradient(180deg, #fff 0%, rgba(194, 194, 194, 0.71) 100%);
+}
+
 #umPush {
   background: url("/public/assets/projects/portfolio/socialMedia.png");
+
   width: 489px;
   height: 489px;
+
   background-size: cover;
+
   border-radius: 35px;
+  border: 1px solid rgb(126, 32, 32);
+
+  transition: 400ms;
+}
+
+#umPush:hover {
+  border: 3px solid rgb(51, 126, 32);
+  transform: scale(1.1);
 }
 
 .projects > .image-rectangle > .push {
@@ -81,8 +97,28 @@
   margin-bottom: 18px;
 }
 
-.projects > .image-rectangle:hover {
-  background: linear-gradient(180deg, #fff 0%, rgba(194, 194, 194, 0.71) 100%);
+.projects > .texts.projectos > button {
+  width: 450px;
+  height: 50px;
+
+  margin-top: 30px;
+  color: white;
+
+  font-size: 25px;
+  letter-spacing: 1.5px;
+
+  background-color: rgb(126, 32, 32);
+  transition: 400ms;
+
+  border: none;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+}
+
+.projects > .texts.projectos > button:hover {
+  background-color: rgb(86, 6, 144);
 }
 
 /* === EDIÇÃO DE VÍDEOS === */

@@ -2,22 +2,27 @@
 
 .welcome > .astro-svg.animate > .texts {
   animation: fadeInRight;
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-duration: 2s;
 }
 
 .welcome > .astro-svg.animate > span {
   animation: fadeInLeft;
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-duration: 2s;
+}
+
+.shapes > span {
+  animation: fadeInLeft;
+  animation-duration: 2s;
 }
 
 /* === PROJECTS SECTION === */
 
 .projetos > .projects > .texts.animated {
   animation: fadeInLeft;
-  animation-duration: 1.5s; /* don't forget to set a duration! */
+  animation-duration: 1.5s;
 }
 
 .projetos > .videos > .texts.animated {
   animation: fadeInRight;
-  animation-duration: 0.8s; /* don't forget to set a duration! */
+  animation-duration: 0.8s;
 }
