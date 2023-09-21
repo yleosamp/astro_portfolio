@@ -18,4 +18,7 @@ import "/public/scripts/anime.js";
 import "/public/scripts/intersectionObserver.js";
 import "/public/scripts/newPage.js";
 
+import Scrolltrigger from "scrolltrigger";
+import gsap from "gsap";
+
 // import "/public/scripts/rive.js";

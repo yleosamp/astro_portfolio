@@ -2,8 +2,7 @@ import anime from "animejs";
 
 function rectangle() {
   anime({
-    targets: "#image-rectangle",
-    borderRadius: ["200%", "35px"],
+    targets: ["#image-rectangle"],
     duration: 900,
     scale: ["0%", "100%"],
     opacity: ["0%", "100%"],

@@ -3,6 +3,13 @@
   animation-duration: 2s;
 }
 
+body {
+  background: url("../../assets/projects/fundo.png") no-repeat;
+  background-position: top;
+
+  background-size: cover;
+}
+
 #portfolio > .designs > .head {
   align-items: end;
   justify-content: end;
@@ -21,11 +28,18 @@
 
   justify-content: flex-end;
   align-items: flex-end;
+
+  margin-top: 152px;
 }
 
 #portfolio > .designs > .head > .texts > h1 {
   font-family: "Coolvetica-Regular";
-  color: #fff;
+
+  background: linear-gradient(89deg, #fff 40.7%, #545454 110.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   font-size: 211px;
 
   font-weight: 400;
@@ -105,15 +119,123 @@
   transition: transform 200ms;
 }
 
-#portfolio > .designs > .images > .image > img {
-  width: 378px;
-  height: 378px;
-
-  border-radius: 18px;
-
-  object-fit: cover;
-}
-
 #portfolio > .designs > .images > .image:hover {
   transform: scale(1.1);
+}
+
+#portfolio > .designs > .header > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Coolvetica-Regular";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+}
+
+#portfolio > .designs > .header > p {
+  color: #fff;
+  text-align: center;
+  font-family: "Coolvetica-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+
+#portfolio > .designs > .header.carrossel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 421px;
+  margin-bottom: -70px;
+}
+
+#portfolio > .designs > .images.carrossel > .image {
+  width: 1113px;
+  height: 371px;
+  background-color: white;
+}
+
+#portfolio > .designs > .images.carrossel > .image > img {
+  object-fit: cover;
+  height: 371px;
+}
+
+#portfolio > .designs > .header.banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 147px;
+  margin-bottom: 70px;
+}
+
+#portfolio > .designs > .header.banner > .backBannerFundo {
+  background-image: url("/public/assets/projects/grid.svg");
+  background-size: cover;
+  background-position: center center;
+
+  width: 953px;
+  height: 400px;
+  margin-top: -200px;
+  margin-bottom: -220px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio > .designs > .header.reels {
+  width: 1270px;
+  display: flex;
+
+  justify-content: flex-start;
+  margin: auto;
+
+  margin-top: 164px;
+}
+
+#portfolio > .designs > .images.banner > .image > .um {
+  background: url("/public/assets/projects/portfolio/ford.png") no-repeat;
+
+  background-size: cover;
+
+  border-radius: 18px;
+  width: 389px;
+  height: 389px;
+}
+
+#portfolio > .designs > .images.banner > .image > .um:hover {
+  transform: scale(1.003);
+}
+
+#portfolio > .designs > .images.banner > .image > .dois {
+  background: url("/public/assets/projects/portfolio/atrizes.png") no-repeat;
+
+  background-size: cover;
+
+  border-radius: 18px;
+  width: 389px;
+  height: 389px;
+}
+
+#portfolio > .designs > .images.banner > .image > .dois:hover {
+  transform: scale(1.003);
+}
+
+#portfolio > .designs > .images.banner > .image > .tres {
+  background: url("/public/assets/projects/portfolio/trabalhador.png") no-repeat;
+
+  background-size: cover;
+
+  border-radius: 18px;
+  width: 389px;
+  height: 389px;
+}
+
+#portfolio > .designs > .images.banner > .image > .tres:hover {
+  transform: scale(1.003);
 }

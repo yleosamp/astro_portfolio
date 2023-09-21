@@ -63,12 +63,21 @@
   align-items: center;
 }
 
+#umPush {
+  background: url("/public/assets/projects/portfolio/socialMedia.png");
+  width: 489px;
+  height: 489px;
+  background-size: cover;
+  border-radius: 35px;
+}
+
 .projects > .image-rectangle > .push {
   display: inline-flex;
   background: url("../assets/push.svg") no-repeat;
   width: 196px;
   height: 12px;
 
+  position: absolute;
   margin-bottom: 18px;
 }
 
@@ -140,11 +149,17 @@
 
 .videos > .images > .videos-images {
   width: 562px;
-  height: 208px;
+  height: 250px;
 
   border-radius: 35px;
   background-color: #ffffff;
   opacity: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .videos > .texts > h1 > img {
@@ -161,4 +176,24 @@
 
 .projects > .texts > h1 > .pattern {
   margin-left: -20px;
+}
+
+#videoImage {
+  width: 565px;
+  height: 258px;
+
+  border-radius: 35px;
+
+  background: url("/public/assets/projects/portfolio/thumbUm.png") no-repeat;
+  background-size: cover;
+}
+
+#videoImageDois {
+  width: 565px;
+  height: 258px;
+
+  border-radius: 35px;
+
+  background: url("/public/assets/projects/portfolio/thumbDois.png") no-repeat;
+  background-size: cover;
 }

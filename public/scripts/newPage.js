@@ -19,3 +19,20 @@ rectangle.addEventListener("click", () => {
     $("#portfolio").css("flex-direction", "column");
   }, 1000);
 });
+
+backBtn.addEventListener("click", () => {
+  $("#portfolio").css("animation", "fadeOut");
+  $("#portfolio").css("animation-duration", "1s");
+
+  $("html, body").animate(
+    {
+      scrollTop: $("nav").offset().top,
+    },
+    400
+  );
+
+  $("#portfolio").css("display", "none");
+  $("#app").css("display", "flex");
+  $("#app").css("animation", "animate__backInRight");
+  $("#app").css("animation-duration", "1s");
+});
