@@ -11,6 +11,8 @@ Serve como aprendizado e para ajudar o mesmo com um website para divulgar os seu
 - Node.js
 - Anime.js
 - Animate.css
+- GSAP
+- ScrollTrigger
 
 # Contato do Bruno "Astro" Henrique
 
