@@ -79,7 +79,6 @@ body {
 
 #portfolio > .designs > .images {
   display: flex;
-  flex-wrap: wrap;
 
   align-items: center;
   justify-items: center;
@@ -151,6 +150,8 @@ body {
   height: 371px;
   background-color: white;
   overflow: hidden;
+
+  justify-content: flex-start;
 }
 
 #imagesCarousel {
@@ -236,4 +237,33 @@ body {
 
 #portfolio > .designs > .images.banner > .image > .tres:hover {
   transform: scale(1.003);
+}
+
+#portfolio > .designs > .images.reels > .image {
+  height: 650px;
+  margin-top: -50px;
+  background-color: #545454;
+}
+
+/* === BUTTONS CAROUSEL === */
+
+#nextBtn {
+  display: flex;
+
+  justify-content: center;
+  gap: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#nextBtn > .next > img {
+  transform: rotate(180deg);
+}
+
+#nextBtn > .next {
+  cursor: pointer;
+}
+
+#nextBtn > .back {
+  cursor: pointer;
 }

@@ -1,5 +1,4 @@
-import ScrollTrigger from "gsap/ScrollTrigger";
-import gsap from "gsap";
+import { imagesCarouselScroll } from "../scripts/scrolltrigger.js";
 
 const rectangle = document.getElementById("image-rectangle");
 const homePage = document.getElementById("app");
@@ -7,10 +6,6 @@ const backBtn = document.getElementById("buttonBack");
 const projectButton = document.querySelector(
   ".projetos .projects .texts.projectos button"
 );
-
-gsap.registerPlugin(ScrollTrigger);
-
-function imagesCarouselScroll() {}
 
 rectangle.addEventListener("click", () => {
   $("#app").css("animation", "fadeOut");
@@ -40,16 +35,7 @@ rectangle.addEventListener("click", () => {
   }, 1000);
 
   setTimeout(() => {
-    gsap.to("#imagesCarousel", {
-      scrollTrigger: {
-        trigger: ".header.carrossel",
-        endTrigger: ".header.banner",
-        //markers: true,
-        scrub: 1,
-      },
-      x: 900,
-      duration: 5,
-    });
+    imagesCarouselScroll();
   }, 2000);
 });
 
@@ -81,16 +67,7 @@ projectButton.addEventListener("click", () => {
   }, 1000);
 
   setTimeout(() => {
-    gsap.to("#imagesCarousel", {
-      scrollTrigger: {
-        trigger: ".header.carrossel",
-        endTrigger: ".header.banner",
-        //markers: true,
-        scrub: 1,
-      },
-      x: 900,
-      duration: 5,
-    });
+    imagesCarouselScroll();
   }, 2000);
 });
 
